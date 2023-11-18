@@ -1,0 +1,150 @@
+/* It's Just CSS magic, no JS bullshit */
+
+
+/* Fonte usada no HTML */
+
+.titulo{
+	box-sizing: border-box;
+	font-weight: normal;
+	font-family: "Nothing You Could Do";
+}
+
+
+/* Config do gradient do fundo */
+
+body {
+    background-image: linear-gradient(20deg, black, rgb(0, 0, 27) )
+}
+/* posição do titulo */
+
+.titulo{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: #999;
+}
+
+.titulo :hover{
+	transform: rotate(-5deg);
+}
+
+/* config do container */
+
+.container{
+	position: relative;
+	margin: 0 auto;
+
+}
+/* config da Overlay para click */
+
+
+/* Card Smile.DK */
+
+.smile{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 150px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.smile img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.smile:hover{
+	transform: scale(2) rotate(-5deg);
+	z-index: 1;
+
+}
+
+.smileoverlay{
+	top: 0px;
+    left: 265px;
+    bottom: 0px;
+    right: 265px; 
+	background-color:rgba(255,0,0,1);
+    
+}
+  
+/* Card Shanadoo */
+
+.shanadoo{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 15px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.shanadoo img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.shanadoo:hover{
+	transform: scale(2) rotate(15deg);
+	z-index: 1;
+}
+
+/* Card Venice */
+
+.venice{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 50px;
+	rotate: -15deg;
+	transition: transform .35s ease-out;
+}
+
+.venice img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.venice:hover{
+	transform: scale(2) rotate(15deg);
+	z-index: 1;
+}
+
+
+/* Card BeForU */ 
+
+.be4u{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 250px;
+	rotate: -60deg;
+	transition: transform .35s ease-out;
+}
+
+.be4u img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.be4u:hover{
+	transform: scale(2) rotate(60deg);
+	z-index: 1;
+}
+
+/* Card S3RL */ 
+
+.S3RL{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 250px;
+	rotate: 5deg;
+	transition: transform .35s ease-out;
+}
+
+.S3RL img{ 
+	height: 300px;
+	border-radius: 15px;
+}
+
+.S3RL:hover{
+	transform: scale(2) rotate(-4deg);
+	
+}
