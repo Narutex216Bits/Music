@@ -60,11 +60,12 @@ body {
 }
 
 .smileoverlay{
-	top: 0px;
-    left: 265px;
-    bottom: 0px;
-    right: 265px; 
-	background-color:rgba(255,0,0,1);
+	position:absolute;
+    top: 200px;
+    left: 150px;
+	bottom: 300px;
+	right: 500px;
+    z-index: 1;
     
 }
   
@@ -86,6 +87,7 @@ body {
 .shanadoo:hover{
 	transform: scale(2) rotate(15deg);
 	z-index: 1;
+	top: 110px;
 }
 
 /* Card Venice */
@@ -106,6 +108,7 @@ body {
 .venice:hover{
 	transform: scale(2) rotate(15deg);
 	z-index: 1;
+	top: 50px;
 }
 
 
@@ -134,7 +137,7 @@ body {
 .S3RL{
 	position: absolute;
 	margin-left: 1000px;
-	margin-top: 250px;
+	margin-top: 300px;
 	rotate: 5deg;
 	transition: transform .35s ease-out;
 }
